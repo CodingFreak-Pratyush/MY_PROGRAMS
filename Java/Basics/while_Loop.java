@@ -1,20 +1,20 @@
-package Java;
+package Java.Basics;
 
 import java.util.Scanner;
 
-public class For_Loop {
+public class while_Loop {
     public static void main(String[] args) {
-        System.out.println("Enter the Number of Terms");
+        System.out.println("Enter Number of Terms: ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
+        int i = 0;
         int sum = 0;
-        for (int i = 0; i <= n; i++) {
+        while (i <= n) {
             sum = sum + i;
+            i++;
         }
 
         System.out.println(sum);
-
         sc.close();
     }
 }

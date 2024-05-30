@@ -1,4 +1,4 @@
-package Java;
+package Java.Basics;
 
 public class string {
     public static void main(String[] args) {

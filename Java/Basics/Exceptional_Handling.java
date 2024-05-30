@@ -1,4 +1,4 @@
-package Java;
+package Java.Basics;
 
 public class Exceptional_Handling {
     public static void main(String[] args) {
